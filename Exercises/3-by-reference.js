@@ -1,7 +1,7 @@
 'use strict';
-const obj = {n: 5};
+const obj = { n: 5 };
 const inc = (x) => {
-    x.n++;
+  x.n++;
 };
 inc(obj);
 console.dir(obj);
